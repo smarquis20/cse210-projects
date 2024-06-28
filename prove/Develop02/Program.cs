@@ -3,6 +3,7 @@ using System;
 // Extra credit i saved the data to a mysql database and load from that database
 // found example on https://www.c-sharpcorner.com/UploadFile/8af3e0/connecting-to-mysql-using-C-Sharp-net/
 // and https://stackoverflow.com/questions/8326905/c-sharp-foreach-with-mysql
+// I left my original code to save to a file so that can be seen.
 class Program
 {
     static void Main(string[] args)
