@@ -1,0 +1,5 @@
+100
+SimpleGoal:read scriptures|read everyday for 10 minutes|50|False
+SimpleGoal:test2|this is test2|50|True
+EternalGoal:test3|this is test3|100
+ChecklistGoal:test4|this is test4|50|5|500|1
