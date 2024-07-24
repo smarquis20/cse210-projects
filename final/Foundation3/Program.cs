@@ -9,9 +9,7 @@ class Program
         Address address3 = new Address("3452 Ensign Dr","Kansas City","MO","64153","USA");
 
         Lecture lecture = new Lecture("Why you Should Attend Church","Find all the reasons to attend church","07/24/2024","08:00AM",address1,"Shaun Marquis",400);
-        Reception reception = new Reception("Marquis Wedding","The Marriage of Shaun and Michelle Marquis","04/23/2024","3:30PM",address2);
-        reception.AddRsvpName("Shaun Marquis");
-        reception.AddRsvpName("Michelle Marquis");
+        Reception reception = new Reception("Marquis Wedding","The Marriage of Shaun and Michelle Marquis","04/23/2024","3:30PM",address2,"rsvp@example.com");
         OutdoorGathering outdoorGathering = new OutdoorGathering("Marquis Fun and Games","Come have fun at the Marquis home with lawn games","05/12/2024","12:00PM",address3,"Thunder Storms");
 
         Console.WriteLine(lecture.GetStandardDetails());
